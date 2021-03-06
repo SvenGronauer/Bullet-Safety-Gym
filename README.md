@@ -92,9 +92,9 @@ Clone the repository and install the Bullet-Safety-Gym package via pip. Use the
 following three lines:
 
 ```
-git clone https://gitlab.ldv.ei.tum.de/safe-robust-RL/open-safety-gym.git
+git clone https://github.com/SvenGronauer/Bullet-Safety-Gym.git
 
-cd open-safety-gym
+cd Bullet-Safety-Gym
 
 pip install -e .
 ```
@@ -173,9 +173,9 @@ can be of ```{Circle, Gather, Reach, Run,}```.
 There exists also a function which returns all available environments of the 
 Bullet-Safety-Gym:
 ```
-from bullet_safety_gym import get_open_safety_env_list
+from bullet_safety_gym import get_bullet_safety_gym_env_list
 
-env_list = get_open_safety_env_list()
+env_list = get_bullet_safety_gym_env_list()
 ```
 
 ## Reach Environments

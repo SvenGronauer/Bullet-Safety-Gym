@@ -9,7 +9,7 @@ from gym.envs.registration import register
 # from bullet_safety_gym.envs.builder import EnvironmentBuilder
 
 
-def get_open_safety_env_list():
+def get_bullet_safety_gym_env_list():
     env_list = []
     for env_spec in gym.envs.registry.all():
         if 'Safety' in env_spec.id:
