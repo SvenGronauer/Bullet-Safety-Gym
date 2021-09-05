@@ -260,8 +260,8 @@ class TestEnvs(unittest.TestCase):
     def test_all_envs(self):
         """ Run all the benchmark environments."""
         checked_envs = []
-        agent_list = ['Ball', 'Car', 'Ant', 'Humanoid']
-        task_list = ['Reach', 'Circle', 'Run']
+        agent_list = ['Ball', 'Car', 'Ant', 'Drone']
+        task_list = ['Reach', 'Circle', 'Run', 'Gather']
 
         for (agent, task) in itertools.product(agent_list, task_list):
             env_name = str(f'Safety{agent}{task}-v0')
