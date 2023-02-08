@@ -1,9 +1,23 @@
-**Status:** Development (Major updates may be expected)
+**Status:** Archive (code is provided as-is, no updates expected)
 
 # Bullet-Safety-Gym
 
 "Bullet-Safety-Gym" is a free and open-source framework to benchmark and assess 
-safety specifications in Reinforcement Learning (RL) problems.
+safety specifications in Reinforcement Learning (RL) problems. 
+
+## Technical Report
+
+Baseline results and comparisons can be found in the [technical report](https://mediatum.ub.tum.de/1639974) [(PDF)](https://mediatum.ub.tum.de/doc/1639974/1639974.pdf)
+
+If you like this repo, please use the following citation:
+<pre>
+@techreport{Gronauer2022BulletSafetyGym,
+	author = {Gronauer, Sven},
+	institution = {mediaTUM},
+	title = {Bullet-Safety-Gym: A Framework for Constrained Reinforcement Learning},
+	year = {2022},
+	bdsk-url-1 = {https://mediatum.ub.tum.de/1639974}}
+</pre>
 
 
 ## Yet another Gym?
