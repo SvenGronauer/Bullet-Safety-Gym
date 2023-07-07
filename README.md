@@ -1,11 +1,20 @@
-**Status:** Archive (code is provided as-is, no updates expected)
+**Status:** `Archive` (code is provided as-is). For actively maintained safe RL repos, please see: 
+<a href="https://github.com/PKU-Alignment/safety-gymnasium">Safety Gymnasium</a> and 
+<a href="https://github.com/utiasDSL/safe-control-gym">Safe Control Gym</a>
+
 
 # Bullet-Safety-Gym
+<p align="center">
+• <a href="https://github.com/SvenGronauer/Bullet-Safety-Gym#technical-report-and-benchmark-results">Technical Report</a>
+• <a href="https://github.com/SvenGronauer/Bullet-Safety-Gym#installation">Installation</a> 
+• <a href="https://github.com/SvenGronauer/Bullet-Safety-Gym#getting-started">Getting Started</a>
+•
+</p>
 
 "Bullet-Safety-Gym" is a free and open-source framework to benchmark and assess 
 safety specifications in Reinforcement Learning (RL) problems. 
 
-## Technical Report
+## Technical Report and Benchmark Results
 
 Baseline results and comparisons can be found in the [technical report](https://mediatum.ub.tum.de/1639974) [(PDF)](https://mediatum.ub.tum.de/doc/1639974/1639974.pdf)
 
@@ -16,6 +25,7 @@ If you like this repo, please use the following citation:
 	institution = {mediaTUM},
 	title = {Bullet-Safety-Gym: A Framework for Constrained Reinforcement Learning},
 	year = {2022},
+	doi = {10.14459/2022md1639974},
 	bdsk-url-1 = {https://mediatum.ub.tum.de/1639974}}
 </pre>
 
